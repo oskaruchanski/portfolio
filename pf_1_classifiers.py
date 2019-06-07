@@ -42,4 +42,4 @@ for i, classifier in enumerate(classifiers):
     preditions[i] = classifier.predict(real_X)
     accuracy[i] = accuracy_score(real_Y, preditions[i])
     print(str(classifier)[:str(classifier).find(
-        "(")], "accuracy: ", round(accuracy[i], 2))
+        '(')], 'accuracy: ', round(accuracy[i], 2))
